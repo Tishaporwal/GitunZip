@@ -1,0 +1,59 @@
+/* General Styles */
+body {
+    background-color: #f8f9fa;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    max-width: 600px;
+    margin: auto;
+    padding-top: 50px;
+}
+
+.card {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+h2 {
+    color: #007bff;
+    font-weight: bold;
+    text-align: center;
+}
+
+.text-muted {
+    text-align: center;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+/* Summary Page Styles */
+.summary-container {
+    max-width: 700px;
+    margin: auto;
+    padding-top: 50px;
+    text-align: center;
+}
+
+.summary-card {
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.summary-text {
+    font-size: 1.2rem;
+    color: #333;
+    line-height: 1.5;
+    margin-top: 20px;
+}
